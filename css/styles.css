@@ -1,4 +1,89 @@
+/* ================================================================================
+NAVIGATION
+================================================================================ */
+
+nav  {
+  background-color: #2A2F35;
+}
+
+nav p {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* ================================================================================
+JUMBOTRON
+================================================================================ */
+
+.jumbotron {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+
+.jumbotron hr {
+  width: 400px;
+  background-color: white;
+}
+
+/* ================================================================================
+MAIN
+================================================================================ */
+
+body {
+  background-color: #F2F2F2;
+}
+
 main {
-  width: 80%;
-  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+  margin: -70px auto 0px auto;
+  z-index: 1000;
+  box-shadow: 0px 0px 8px 2px #888888;
+  background-color: white;
+  border-top: 2px solid #F86430;
+}
+
+/* ================================================================================
+SOCIAL CONTAINER
+================================================================================ */
+
+#social-container {
+  color: white;
+  background-color: #2A2F35;
+  border-top: 3px solid #F86430;
+  padding: 0px 1rem;
+}
+
+#social-container p {
+  color: #D7DBDE;
+}
+
+ #social-container hr {
+   height: 2px;
+  background-color: #53585B;
+}
+
+/* ================================================================================
+BOTTOM NAVIGATION
+================================================================================ */
+
+#bottom-navigation-container  ul {
+  list-style: none;
+}
+
+#bottom-navigation-container a {
+    color: #D7DBDE;
+}
+
+#bottom-navigation-container {
+  text-align: right;
 }
