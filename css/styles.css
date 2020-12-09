@@ -34,6 +34,7 @@ JUMBOTRON
   background-color: black;
   text-align: center;
   color: white;
+  height: 400px;
 }
 
 
@@ -53,9 +54,9 @@ body {
 main {
   width: 85%;
   max-width: 1200px;
-  margin: -70px auto 0px auto;
+  margin: -100px auto 0px auto;
   z-index: 1000;
-  box-shadow: 0px 0px 8px 2px #888888;
+  box-shadow: 0px 0px 5px 1px #888888;
   background-color: white;
   border-top: 2px solid #F86430;
 }
@@ -77,7 +78,7 @@ SOCIAL CONTAINER
 
  #social-container hr {
    height: 2px;
-  background-color: #53585B;
+    background-color: #53585B;
 }
 
 /* ================================================================================
