@@ -6,6 +6,10 @@ nav  {
   background-color: #2A2F35;
 }
 
+nav .container {
+  max-width: 85%;
+}
+
 nav p {
   color: white;
 }
@@ -16,6 +20,10 @@ nav p {
 
 .nav-link {
   color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: orange;
 }
 
 /* ================================================================================
@@ -43,7 +51,7 @@ body {
 }
 
 main {
-  width: 90%;
+  width: 85%;
   max-width: 1200px;
   margin: -70px auto 0px auto;
   z-index: 1000;
