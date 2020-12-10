@@ -95,22 +95,24 @@ nav .container {
   max-width: 1200px;
 }
 
-
 .navbar-brand {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 300;
   color: white;
-  text-shadow: 0 0 5px #F86430;
 }
 
 .navbar-brand:hover {
   color: white;
 }
 
-.nav-link {
-  color: white;
+.nav-item {
+  padding-left: 1.2rem;
 }
 
+.nav-link {
+  font-size: .9rem;
+  color: white;
+}
 
 .nav-link:hover {
   color: #F86430;
