@@ -38,6 +38,14 @@ JUMBOTRON
   height: 400px;
 }
 
+.jumbotron h5 {
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+.jumbotron h3 {
+  color: white;
+}
 
 .jumbotron hr {
   width: 400px;
@@ -47,6 +55,9 @@ JUMBOTRON
 /* ================================================================================
 MAIN
 ================================================================================ */
+* {
+  font-family: 'Roboto', sans-serif;
+}
 
 body {
   background-color: #F2F2F2;
@@ -62,22 +73,36 @@ main {
   border-top: 2px solid #F86430;
 }
 
+h3 {
+  font-weight: 200;
+  color: #9E9E9E;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 /* ================================================================================
-SOCIAL CONTAINER
+BOTTOM CONTAINER
 ================================================================================ */
 
-#social-container {
+#bottom-container {
   color: white;
   background-color: #2A2F35;
   border-top: 3px solid #F86430;
-  padding: 0px 1rem;
+  padding: 2rem 1rem 0 1rem;
 }
 
-#social-container p {
+#bottom-container p {
   color: #D7DBDE;
 }
 
- #social-container hr {
+ #bottom-container hr {
   height: 2px;
   background-color: #53585B;
 }
