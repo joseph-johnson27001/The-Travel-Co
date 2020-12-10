@@ -22,11 +22,6 @@ main {
 h3 {
   font-weight: 300;
   font-size: 1.5rem;
-  color: #949494;
-}
-
-h5 {
-  font-size: 1rem;
 }
 
 p {
@@ -86,7 +81,7 @@ NAVIGATION
 
 nav {
   height: 3.2rem;
-  background-color: #2A2F35;
+  background-color: black;
   border-bottom: 1px solid #F86430;
 }
 
@@ -147,7 +142,19 @@ JUMBOTRON
   background-color: white;
 }
 
+/* ================================================================================
+SERVICES CONTAINER
+================================================================================ */
 
+.services-header {
+  display: inline;
+  font-size: .9rem;
+  font-weight: 900;
+}
+
+.icons {
+  display: inline;
+}
 
 /* ================================================================================
 BOTTOM CONTAINER
