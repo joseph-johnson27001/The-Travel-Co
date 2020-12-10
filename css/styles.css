@@ -30,12 +30,12 @@ p {
 }
 
 @media (max-width: 576px) {
-  .heading-container {
-    width: 100%;
-  }
-  .heading-container .btn {
-    width: 100%;
-  }
+    .main-button-container {
+      width: 100%;
+    }
+    .main-button-container .btn {
+      width: 100%;
+    }
 }
 
 .images {
