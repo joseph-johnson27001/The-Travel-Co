@@ -1,62 +1,4 @@
 /* ================================================================================
-NAVIGATION
-================================================================================ */
-
-nav  {
-  background-color: #2A2F35;
-}
-
-nav .container {
-  width: 90%;
-  max-width: 1200px;
-}
-
-nav p {
-  color: white;
-}
-
-.navbar-brand {
-  color: white;
-}
-
-.nav-link {
-  color: white;
-}
-
-
-/* ================================================================================
-JUMBOTRON
-================================================================================ */
-
-.jumbotron {
-  background-image: url("../images/bokeh_background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 70% 45%;
-  text-align: center;
-  color: white;
-  height: 400px;
-  text-shadow: 0 0 3px orange, 0 0 4px black;
-}
-
-.jumbotron h5 {
-  font-weight: 300;
-  font-size: 1.4rem;
-  padding: .5rem 0;
-}
-
-.jumbotron h3 {
-  color: #F2F2F2;
-  font-weight: 300;
-  text-shadow: 0 0 3px orange, 0 0 3px black;
-}
-
-.jumbotron hr {
-  width: 400px;
-  background-color: white;
-}
-
-/* ================================================================================
 MAIN
 ================================================================================ */
 * {
@@ -68,7 +10,7 @@ body {
 }
 
 main {
-  width: 85%;
+  width: 90%;
   max-width: 1200px;
   margin: -100px auto 0px auto;
   z-index: 1000;
@@ -90,6 +32,73 @@ p {
   font-size: 1rem;
   font-weight: 300;
 }
+
+.btn-dark {
+  background-color: #2A2E31;
+  padding: .3rem 1rem;
+  border-radius: 5px;
+}
+
+/* ================================================================================
+NAVIGATION
+================================================================================ */
+
+nav {
+  background-color: black;
+  border-bottom: 1px solid #F86430;
+}
+
+nav .container {
+  width: 90%;
+  max-width: 1200px;
+}
+
+nav p {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #F86430;
+}
+
+
+/* ================================================================================
+JUMBOTRON
+================================================================================ */
+
+.jumbotron {
+  background-image: url("../images/bokeh_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 45%;
+  text-align: center;
+  color: white;
+  height: 400px;
+  text-shadow: 0 0 3px red, 0 0 1px black;
+  border-bottom: 1px solid #F86430;
+}
+
+.jumbotron h5 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: .5rem 0;
+}
+
+.jumbotron hr {
+  width: 375px;
+  background-color: white;
+}
+
+
 
 /* ================================================================================
 BOTTOM CONTAINER
