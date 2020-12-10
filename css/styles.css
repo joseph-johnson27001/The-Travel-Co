@@ -36,7 +36,7 @@ JUMBOTRON
   text-align: center;
   color: white;
   height: 400px;
-  text-shadow: 0 0 3px orange, 0 0 3px black;
+  text-shadow: 0 0 3px orange, 0 0 4px black;
 }
 
 .jumbotron h5 {
@@ -46,7 +46,9 @@ JUMBOTRON
 }
 
 .jumbotron h3 {
-  color: white;
+  color: #F2F2F2;
+  font-weight: 300;
+  text-shadow: 0 0 3px orange, 0 0 3px black;
 }
 
 .jumbotron hr {
