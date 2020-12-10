@@ -29,6 +29,15 @@ p {
   font-weight: 300;
 }
 
+@media (max-width: 576px) {
+  .heading-container {
+    width: 100%;
+  }
+  .heading-container .btn {
+    width: 100%;
+  }
+}
+
 .images {
   width: 100%;
   margin: auto;
@@ -41,6 +50,7 @@ p {
 }
 
 .btn {
+  border: none;
   margin-bottom: 1rem;
 }
 
@@ -69,6 +79,7 @@ p {
 .btn-light:hover {
   color: white;
   background-color: #2A2E31;
+  border: none;
 }
 
 #works-buttons {
