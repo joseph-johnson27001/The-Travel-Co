@@ -23,24 +23,26 @@ nav p {
   color: white;
 }
 
-.navbar-toggler-icon {
-  background-color: orange;
-}
 
 /* ================================================================================
 JUMBOTRON
 ================================================================================ */
 
 .jumbotron {
-  background-color: black;
+  background-image: url("../images/bokeh_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 45%;
   text-align: center;
   color: white;
   height: 400px;
+  text-shadow: 0 0 3px orange, 0 0 3px black;
 }
 
 .jumbotron h5 {
   font-weight: 300;
-  font-size: 1.3em;
+  font-size: 1.4rem;
+  padding: .5rem 0;
 }
 
 .jumbotron h3 {
