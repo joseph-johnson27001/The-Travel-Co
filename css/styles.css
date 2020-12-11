@@ -167,6 +167,35 @@ SERVICES CONTAINER
   display: inline;
 }
 
+
+/* ================================================================================
+BLOG AND TESTIMONIAL AREA
+================================================================================ */
+
+
+#blog-image-container {
+  justify-content: space-between;
+}
+
+.blog-images {
+  height: 80px;
+  width: 80px;
+  max-width: 80px;
+}
+
+.blog-headings {
+  margin-left: 3px;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.blog-sub-text {
+  color: #F86430;
+  font-size: .9rem;
+  margin-left: 5px;
+  font-style: italic;
+}
+
 /* ================================================================================
 SOCIAL MEDIA AND CONTACT AREA
 ================================================================================ */
@@ -187,6 +216,13 @@ SOCIAL MEDIA AND CONTACT AREA
   color: white;
   text-decoration: none;
   opacity: 0.7;
+}
+
+
+
+.bottom-container-images {
+  height: 60px;
+  margin: 2px;
 }
 
 /* ================================================================================
