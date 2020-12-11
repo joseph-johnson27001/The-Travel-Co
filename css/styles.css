@@ -17,14 +17,17 @@ main {
   box-shadow: 0px 0px 3px 1px #888888;
   background-color: white;
   border-top: 2px solid #F86430;
+  line-height: 1.8rem;
 }
 
 h3 {
+  padding-top: 5px;
   font-weight: 400;
   font-size: 1.4rem;
 }
 
 p {
+  color: grey;
   font-size: 1rem;
   font-weight: 300;
   margin: 0;
@@ -52,7 +55,7 @@ p {
 
 .btn {
   border: none;
-  margin-bottom: 1rem;
+  margin: 1rem 0 0 0;
 }
 
 .btn-dark {
@@ -83,7 +86,7 @@ p {
   border: none;
 }
 
-#works-buttons {
+#activities-buttons {
   margin-top: 1rem;
   text-align: right;
 }
@@ -219,10 +222,10 @@ SOCIAL MEDIA AND CONTACT AREA
   opacity: 0.7;
 }
 
-
-
 .bottom-container-images {
   height: 60px;
+  width: auto;
+  padding: 0px;
   margin: 2px;
 }
 
@@ -235,10 +238,6 @@ BOTTOM CONTAINER
   background-color: #2A2F35;
   border-top: 3px solid #F86430;
   padding: 2rem 1rem 0 1rem;
-}
-
-#bottom-container div {
-  margin-bottom: 10px;
 }
 
 #bottom-container p {
