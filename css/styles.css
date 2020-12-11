@@ -141,6 +141,12 @@ JUMBOTRON
   border-bottom: 1px solid #F86430;
 }
 
+@media (max-width: 575px) {
+  .jumbotron {
+    height: 400px;
+  }
+}
+
 .jumbotron h5 {
   font-weight: 300;
   font-size: 1.5rem;
@@ -183,16 +189,20 @@ BLOG AND TESTIMONIAL AREA
   justify-content: space-between;
 }
 
+.blog-image-container {
+  display: flex;
+}
+
 .blog-images {
-  height: 80px;
-  width: 80px;
-  max-width: 80px;
+  height: 90px;
+  width: 90px;
+  margin: 0
 }
 
 .blog-headings {
   margin-left: 3px;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .blog-sub-text {
@@ -200,6 +210,12 @@ BLOG AND TESTIMONIAL AREA
   font-size: .9rem;
   margin-left: 5px;
   font-style: italic;
+}
+
+@media(min-width: 992px) {
+  #blog-hr {
+    display: none;
+  }
 }
 
 .card {
@@ -213,7 +229,6 @@ BLOG AND TESTIMONIAL AREA
   background-color: white;
   padding: 1rem;
 }
-
 
 .blockquote {
   text-align: center;

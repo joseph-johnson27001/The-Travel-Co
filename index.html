@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -146,14 +147,18 @@ BLOG & TESTIMONIALS DIV
 
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-lg-6">
         <div>
           <h3>BLOG</h3>
         </div>
         <div class="container row">
-          <img src="images/map.jpg" alt="Image Alt Tag" class="blog-images">
-          <h5 class="blog-headings">7 TIPS FOR TRAVEL PLANNING</h5>
-          <p class="blog-sub-text"> - Amy S 15/12/2020</p>
+          <div class="col-xs-2 blog-image-container">
+            <img src="images/map.jpg" alt="Image Alt Tag" class="blog-images">
+          </div>
+          <div class="col-xs-10">
+            <h5 class="blog-headings">7 TIPS FOR TRAVEL PLANNING</h5>
+            <p class="blog-sub-text"> - Amy S 15/12/2020</p>
+          </div>
           <p class="blog-text">Filler text. Random filler text. Filler text. Random filler text. Filler text. Random filler text.</p>
           <div class="main-button-container">
             <button type="button" class="btn btn-dark">Read More</button>
@@ -161,16 +166,21 @@ BLOG & TESTIMONIALS DIV
         </div>
       <hr>
       <div class="container row">
-        <img src="images/pool.jpg" alt="Image Alt Tag" class="blog-images">
-        <h5 class="blog-headings">ASIA'S BEST BOUTIQUE HOTELS</h5>
-        <p class="blog-sub-text"> - Tony J 12/12/2020 </p>
+        <div class="col-xs-2">
+          <img src="images/pool.jpg" alt="Image Alt Tag" class="blog-images">
+        </div>
+        <div class="col-xs-10">
+          <h5 class="blog-headings">ASIA'S BEST BOUTIQUE HOTELS</h5>
+          <p class="blog-sub-text"> - Tony J 12/12/2020 </p>
+        </div>
         <p class="blog-text">Filler text. Random filler text. Filler text. Random filler text. Filler text. Random filler text.</p>
         <div class="main-button-container">
           <button type="button" class="btn btn-dark">Read More</button>
         </div>
       </div>
+      <hr id="blog-hr">
       </div>
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-lg-6">
         <div>
           <h3>TESTIMONIALS</h3>
         </div>
