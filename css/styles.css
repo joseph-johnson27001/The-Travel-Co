@@ -27,6 +27,7 @@ h3 {
 p {
   font-size: 1rem;
   font-weight: 300;
+  margin: 0;
 }
 
 @media (max-width: 576px) {
@@ -236,6 +237,10 @@ BOTTOM CONTAINER
   padding: 2rem 1rem 0 1rem;
 }
 
+#bottom-container div {
+  margin-bottom: 10px;
+}
+
 #bottom-container p {
   color: #D7DBDE;
 }
@@ -243,6 +248,10 @@ BOTTOM CONTAINER
  #bottom-container hr {
   height: 2px;
   background-color: #53585B;
+}
+
+.twitter-italic-container {
+  color: #F86430;
 }
 /* ================================================================================
 BACK TO TOP BUTTON
