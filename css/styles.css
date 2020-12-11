@@ -204,6 +204,7 @@ BLOG AND TESTIMONIAL AREA
 
 .card {
   border: none;
+  padding: 0;
 }
 
 .fa-quote-left,
@@ -216,7 +217,6 @@ BLOG AND TESTIMONIAL AREA
 
 .blockquote {
   text-align: center;
-  width: 90%;
   margin: auto;
 }
 
