@@ -192,7 +192,6 @@ BLOG AND TESTIMONIAL AREA
 }
 
 .blog-headings {
-
   font-weight: 400;
   font-size: 1.1rem;
 }
@@ -200,16 +199,12 @@ BLOG AND TESTIMONIAL AREA
 .blog-sub-text {
   color: #F86430;
   font-size: .9rem;
-
   font-style: italic;
-
 }
 
 .blog-text {
   color: darkslategrey;
 }
-
-
 
 @media(min-width: 992px) {
   #blog-hr {
