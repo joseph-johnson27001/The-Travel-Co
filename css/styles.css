@@ -27,7 +27,7 @@ h3 {
 }
 
 p {
-  color: grey;
+  color: slategrey;
   font-size: 1rem;
   font-weight: 300;
   margin: 0;
@@ -91,7 +91,7 @@ NAVIGATION
 
 nav {
   height: 3.2rem;
-  background-color: #1A1D21;
+  background-color: #262B30;
   border-bottom: 1px solid #F86430;
 }
 
@@ -185,22 +185,14 @@ ACTIVITIES AREA
 BLOG AND TESTIMONIAL AREA
 ================================================================================ */
 
-#blog-image-container {
-  justify-content: space-between;
-}
-
-.blog-image-container {
-  display: flex;
-}
-
 .blog-images {
-  height: 90px;
-  width: 90px;
-  margin: 0
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
 }
 
 .blog-headings {
-  margin-left: 3px;
+
   font-weight: 400;
   font-size: 1.1rem;
 }
@@ -208,9 +200,16 @@ BLOG AND TESTIMONIAL AREA
 .blog-sub-text {
   color: #F86430;
   font-size: .9rem;
-  margin-left: 5px;
+
   font-style: italic;
+
 }
+
+.blog-text {
+  color: darkslategrey;
+}
+
+
 
 @media(min-width: 992px) {
   #blog-hr {
@@ -266,12 +265,12 @@ SOCIAL MEDIA AND CONTACT AREA
   opacity: 0.7;
 }
 
+
 .bottom-container-images {
-  height: 60px;
-  width: auto;
-  padding: 0px;
-  margin: 2px;
+  height: 50px;
+  width: 50px;
 }
+
 
 /* ================================================================================
 BOTTOM CONTAINER
@@ -285,7 +284,8 @@ BOTTOM CONTAINER
 }
 
 #bottom-container p {
-  color: #D7DBDE;
+  color: white;
+  font-weight: 300;
 }
 
  #bottom-container hr {
