@@ -179,7 +179,9 @@ ACTIVITIES AREA
 .activities-images {
   width: 100%;
   margin: auto;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
 }
 
 /* ================================================================================
@@ -190,6 +192,7 @@ BLOG AND TESTIMONIAL AREA
   height: auto;
   width: 100%;
   border-radius: 5px;
+  box-shadow: 0 0 10px black;
 }
 
 .blog-headings {
