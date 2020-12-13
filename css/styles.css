@@ -100,6 +100,10 @@ nav .container {
   max-width: 1200px;
 }
 
+.navbar-nav {
+  margin: 0;
+}
+
 .navbar-brand {
   font-size: 1rem;
   font-weight: 300;
@@ -120,8 +124,11 @@ nav .container {
 }
 
 .nav-link:hover {
-  color: #F86430;
-  transition: .2s;
+  color: #FF9D03;
+}
+
+.active {
+  color: #FF9D03;
 }
 
 
@@ -181,7 +188,7 @@ ACTIVITIES AREA
   margin: auto;
   margin-bottom: 5px;
   border-radius: 5px;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 5px black;
 }
 
 /* ================================================================================
@@ -192,7 +199,7 @@ BLOG AND TESTIMONIAL AREA
   height: auto;
   width: 100%;
   border-radius: 5px;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 5px black;
 }
 
 .blog-headings {
