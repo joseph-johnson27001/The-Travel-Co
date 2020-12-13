@@ -21,11 +21,11 @@ main {
 }
 
 h3 {
-  font-family: 'Permanent Marker', cursive;
-  padding-top: 5px;
+  font-family: 'Merienda', cursive;
   font-weight: 400;
-  font-size: 1.3rem;
-  color: #04628A;
+  padding-top: 5px;
+  font-size: 1.5rem;
+  color: #0572A1;
 }
 
 p {
@@ -108,13 +108,13 @@ nav .container {
 
 .navbar-brand {
   font-family: 'Permanent Marker', cursive;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 300;
   color: white;
 }
 
 .fa-globe {
-  color: #FF770A;
+  color: #FF9D03;
 }
 
 .navbar-brand:hover {
@@ -126,7 +126,7 @@ nav .container {
 }
 
 .nav-link {
-  font-size: .9rem;
+  font-size: .95rem;
   color: white;
 }
 
@@ -162,16 +162,16 @@ JUMBOTRON
 }
 
 .jumbotron h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-family: 'Permanent Marker', cursive;
-  text-shadow: 0 0 10px red, 0 0 10px blue;
+  text-shadow: 0 0 15px black;
 }
 
 .jumbotron h5 {
   font-family: 'Permanent Marker', cursive;
   font-weight: 300;
-  font-size: 1.5rem;
-  text-shadow: 0 0 10px black;
+  font-size: 1.4rem;
+  text-shadow: 0 0 15px black;
   padding: .5rem 0;
 }
 
@@ -186,8 +186,8 @@ SERVICES CONTAINER
 
 .services-header {
   display: inline;
-  font-size: .9rem;
-  font-weight: 900;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .icons {
