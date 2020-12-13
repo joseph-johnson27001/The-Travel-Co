@@ -315,9 +315,6 @@ BACK TO TOP BUTTON
   border-radius: 25%;
 }
 
-
-
-
 /* ================================================================================
 BOTTOM NAVIGATION
 ================================================================================ */
@@ -328,6 +325,11 @@ BOTTOM NAVIGATION
 
 #bottom-navigation-container a {
     color: #D7DBDE;
+    text-decoration: none;
+}
+
+#bottom-navigation-container a:hover {
+    color: #FF9D03;
 }
 
 #bottom-navigation-container {
