@@ -114,7 +114,7 @@ nav .container {
 }
 
 .fa-globe {
-  color: #FF9D03;
+  color: #0572A1;
 }
 
 .navbar-brand:hover {
@@ -152,7 +152,7 @@ JUMBOTRON
   color: white;
   height: 350px;
   text-shadow: 0 0 5px maroon, 0 0 1px #2A2F35;
-  border-bottom: 1px solid #F86430;
+  border-bottom: 1px solid #0572A1;
 }
 
 @media (max-width: 320px) {
