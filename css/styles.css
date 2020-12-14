@@ -131,12 +131,13 @@ nav .container {
 }
 
 .fa-globe {
-  color: #0572A1;
+  color: orange;
 }
 
-.navbar-brand:hover {
-  color: white;
+.fa-globe:hover {
+  color: orange;
 }
+
 
 .nav-item {
   padding-left: 1.2rem;
@@ -148,7 +149,7 @@ nav .container {
 }
 
 .nav-link:hover {
-  color: #FF9D03;
+  color: orange;
 }
 
 .navbar-collapse {
@@ -158,7 +159,6 @@ nav .container {
 @media(max-width: 767px) {
   .navbar {
     width: 100%;
-
   }
   .navbar-collapse {
     border-left: 1px solid #F86430;
@@ -172,7 +172,7 @@ nav .container {
 }
 
 .active {
-  color: #FF9D03;
+  color: orange;
 }
 
 
@@ -323,15 +323,14 @@ SOCIAL MEDIA AND CONTACT AREA
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
-.fa:hover {
+.social-media-icon:hover {
   color: white;
   text-decoration: none;
   opacity: 0.7;
 }
-
 
 .bottom-container-images {
   height: 50px;
@@ -362,6 +361,7 @@ BOTTOM CONTAINER
 
 .twitter-italic-container {
   color: #F86430;
+  text-align: right;
 }
 /* ================================================================================
 BACK TO TOP BUTTON
