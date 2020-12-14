@@ -250,6 +250,12 @@ ACTIVITIES AREA
   margin-bottom: 5px;
   border-radius: 5px;
   box-shadow: 0 0 5px black;
+  transition: .2s;
+}
+
+.activities-images:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 /* ================================================================================
@@ -261,6 +267,7 @@ BLOG AND TESTIMONIAL AREA
   width: 100%;
   border-radius: 5px;
   box-shadow: 0 0 5px black;
+  margin-top: 5px;
 }
 
 .blog-headings {
@@ -330,6 +337,11 @@ SOCIAL MEDIA AND CONTACT AREA
   opacity: 0.7;
 }
 
+#social-media-image-container {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
 .bottom-container-images {
   height: 50px;
   width: 50px;
@@ -360,6 +372,13 @@ BOTTOM CONTAINER
 .twitter-italic-container {
   color: #F86430;
   text-align: right;
+}
+
+
+@media(max-width: 767px) {
+  #bottom-container h5 {
+    margin-top: 5px;
+  }
 }
 /* ================================================================================
 BACK TO TOP BUTTON
