@@ -245,6 +245,7 @@ ACTIVITIES AREA
 
 .activities-images {
   width: 100%;
+  height: auto;
   margin: auto;
   margin-bottom: 5px;
   border-radius: 5px;

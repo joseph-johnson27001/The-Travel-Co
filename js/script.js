@@ -11,7 +11,6 @@ const activityButtonRight = document.getElementById("activity-button-right")
 const firstActivityRowImages = document.getElementsByClassName("first-activity-row-images")
 const secondActivityRowImages = document.getElementsByClassName("second-activity-row-images")
 const thirdActivityRowImages = document.getElementsByClassName("third-activity-row-images")
-
 const activityRowArray = [firstActivityRowImages, secondActivityRowImages, thirdActivityRowImages]
 
 // BOTTOM SCROLL TO TOP BUTTON
@@ -32,7 +31,9 @@ FUNCTIONS
 ================================================================================ */
 
 
-// NAVIGATION FUNCTIONS
+// ================================================================================
+//NAVIGATION FUNCTIONS
+// ================================================================================
 
 // Function to give targeted button active status
 for (var i = 0; i < btns.length; i++) {
@@ -50,7 +51,9 @@ function removeActiveNavClass() {
   }
 }
 
+// ================================================================================
 // ACTIVITIES SECTION FUNCTIONS
+// ================================================================================
 
 //Function for right activities button
 function rightButton() {
@@ -90,7 +93,7 @@ function leftButton() {
     }
   }
 
-//Function to fade out images
+//Function to fade out activities images
 function fadeOutImages() {
   for(let i = 0; i < activityRowArray.length; i++) {
     for (let j = 0; j < activityRowArray[i].length; j++) {
@@ -102,7 +105,7 @@ function fadeOutImages() {
   }
 }
 
-//Function to fade in images
+//Function to fade in activities images
 function fadeInImages(rowName) {
   for (let i = 0; i < rowName.length; i++) {
   rowName[i].classList.remove("fade-out")
@@ -113,7 +116,10 @@ function fadeInImages(rowName) {
   }
 }
 
+
+// ================================================================================
 // BOTTOM BUTTON SCROLL TO TOP FUNCTION
+// ================================================================================
 
 function scrollTop() {
   window.scrollTo({top: 0, behavior: 'smooth'});
