@@ -415,8 +415,12 @@ BOTTOM NAVIGATION
 
 
 /* ================================================================================
-KEY FRAMES
+KEY FRAMES & ANIMATION CLASSES
 ================================================================================ */
+
+.hide {
+  display: none;
+}
 
 .fade-in {
   animation: fadeIn ease .8s;
